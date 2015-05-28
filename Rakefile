@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "validates_no_word_content"
   gem.homepage = "http://github.com/kaspernj/validates_no_word_content"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{ActiveModel validator that ensures Word-tags hasn't been accidentally pasted into WYSIWYG attributes.}
+  gem.description = %Q{ActiveModel validator that ensures Word-tags hasn't been accidentally pasted into WYSIWYG attributes.}
   gem.email = "k@spernj.org"
   gem.authors = ["kaspernj"]
   # dependencies defined in Gemfile

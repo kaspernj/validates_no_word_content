@@ -1,6 +1,22 @@
 # validates_no_word_content
 
-Description goes here.
+## Install
+
+Add to your Gemfile and bundle like this:
+
+```ruby
+gem 'validates_no_word_content'
+```
+
+## Usage
+
+Add to your model like this:
+
+```ruby
+class Article < ActiveRecord::Base
+  validates :content, no_word_content: true
+end
+```
 
 ## Contributing to validates_no_word_content
 
