@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.authors = ["kaspernj"]
   s.date = "2015-05-28"
-  s.description = "TODO: longer description of your gem"
+  s.description = "ActiveModel validator that ensures Word-tags hasn't been accidentally pasted into WYSIWYG attributes."
   s.email = "k@spernj.org"
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -31,12 +31,13 @@ Gem::Specification.new do |s|
     "lib/validates_no_word_content.rb",
     "spec/dummy_model.rb",
     "spec/spec_helper.rb",
-    "spec/validates_no_word_content_spec.rb"
+    "spec/validates_no_word_content_spec.rb",
+    "validates_no_word_content.gemspec"
   ]
   s.homepage = "http://github.com/kaspernj/validates_no_word_content"
   s.licenses = ["MIT"]
   s.rubygems_version = "2.2.2"
-  s.summary = "TODO: one-line summary of your gem"
+  s.summary = "ActiveModel validator that ensures Word-tags hasn't been accidentally pasted into WYSIWYG attributes."
 
   if s.respond_to? :specification_version then
     s.specification_version = 4
