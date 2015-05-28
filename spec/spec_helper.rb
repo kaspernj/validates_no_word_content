@@ -1,5 +1,4 @@
 require 'simplecov'
-require 'active_support'
 require 'active_model'
 require 'validates_no_word_content'
 require 'dummy_model'
